@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>REZA DAN ALDI</title>
+</head>
+<body> 
+<h1>LOGIN</h1>
+<p> MASUKKAN USERNAME DAN PASSWORD ANDA.</p>
+	<LABEL>USERNAME:</LABEL>
+	<input type="text" id="nama">
+	<br>
+	<LABEL>PASSWORD:</LABEL>
+	<input type="password" id="PW">
+	<br>	
+	<Button onclick="tampilkanhasil()">LOGIN</Button>
+<Script>
+function tampilkanhasil(){
+	var username = document.getElementById('nama').value ;
+	var password = document.getElementById('PW').value ;
+	if (username == 'reza123' && password == 'opet123'){ window.location.href = "home.html"
+	}else {
+	alert("tidak dapat login") ;
+	}
+}
+</Script>
+	</body>
+	</html>
